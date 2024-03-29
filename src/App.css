@@ -1,3 +1,6 @@
+body{
+  background-color: #f8fdff;
+}
 nav{
   display: flex;
   justify-content: center;
@@ -112,9 +115,7 @@ hr{
 .header{
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin: auto;
-  }
+ }
   .cta-delete{
   cursor: pointer;
   border: 1px solid transparent;
@@ -124,6 +125,7 @@ hr{
   font-family: "Open Sans", sans-serif;
   padding: 15px;
   margin: 50px;
+  width: 20%;
 }
 .cta-delete:hover{
   border: 1px solid #b01b48;

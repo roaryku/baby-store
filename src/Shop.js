@@ -3,10 +3,12 @@ import { useState } from "react";
 import './App.css';
 import Carousel from "./Carousel";
 import Buttons from "./Buttons";
+import Swal from "sweetalert2";
 
 function Shop(){
     const [shop, setShop] = useState(data);
     const [showText, setShowText] = useState(false)
+    const [deleteButtonText, setDeleteButtonText] = useState("Delete All")
 
     const removeGift = (id) => {
         let newGifts = shop.filter(gift => gift.id !==id)
@@ -17,6 +19,15 @@ function Shop(){
         const newClothes = data.filter(element => element.searchTerm === searchTerm)
         setShop(newClothes)
         }
+
+    const handleClick = () => {
+        Swal.fire({
+            icon: "error",
+            title: "Sorry!...",
+            text: "Everything was deleted",
+          });
+        setDeleteButtonText("Please check back later.")
+    }
 
 
     return(
@@ -39,7 +50,6 @@ function Shop(){
         }
 
                 return(
-                    
                     <div>
                         <div key={id} className="container">
                         <Carousel image={image}/>
@@ -55,12 +65,13 @@ function Shop(){
                 </div>
                 )
             }))}
+            </div>
 
-            <div className="header">
-                <button className="cta-delete" onClick={() => setShop([])}>Delete All</button>
+            <div className="header shop">
+               <button className="cta-delete" onClick={() => handleClick (setShop ([]))}>{deleteButtonText}</button>
             </div>
           </div>
-        </div>
+        
    )
 }
 export default Shop;
