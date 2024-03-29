@@ -41,7 +41,7 @@ function Shop(){
         
        <div className="products shop">
             {shop.map((element => {
-                const {id, name, searchTerm, description, price, showMore, image} = element
+                const {id, name, description, price, showMore, image} = element
 
 
            const showTextClick = (element) => {
