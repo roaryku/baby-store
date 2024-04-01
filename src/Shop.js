@@ -4,11 +4,12 @@ import './App.css';
 import Carousel from "./Carousel";
 import Buttons from "./Buttons";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 
 
 function Shop(){
     const [shop, setShop] = useState(data);
-    const [showText, setShowText] = useState(false)
+    // const [showText, setShowText] = useState(false)
     const [deleteButtonText, setDeleteButtonText] = useState("Delete All")
 
     const removeGift = (id) => {
@@ -45,18 +46,22 @@ function Shop(){
                 const {id, name, description, price, showMore, image} = element
 
 
-           const showTextClick = (element) => {
-           element.showMore = !element.showMore
-           setShowText(!showText)
-        }
+        //    const showTextClick = (element) => {
+        //    element.showMore = !element.showMore
+        //    setShowText(!showText)
+        // }
 
                 return(
                     <div>
                         <div key={id} className="container">
+
+                        <Link className="link" to ={`/about/${element.title}`}>
                         <Carousel image={image}/>
+                      
                         <h4 className="babyName">{name}</h4>
                         <p className="par">{showMore ? description : description.substring(0, 15) + "..."}
-                        <button className="bta" onClick={() => showTextClick(element)}>{showMore ? "Read less" : "Read more"}</button></p>
+                        <button className="bta">Read more</button></p>
+                        </Link>
                         <p className="babyPrice">$ {price}</p>
 
                      <div className="products">
