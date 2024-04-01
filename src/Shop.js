@@ -5,6 +5,7 @@ import Carousel from "./Carousel";
 import Buttons from "./Buttons";
 import Swal from "sweetalert2";
 
+
 function Shop(){
     const [shop, setShop] = useState(data);
     const [showText, setShowText] = useState(false)
@@ -41,7 +42,7 @@ function Shop(){
         
        <div className="products shop">
             {shop.map((element => {
-                const {id, name, searchTerm, description, price, showMore, image} = element
+                const {id, name, description, price, showMore, image} = element
 
 
            const showTextClick = (element) => {
@@ -55,7 +56,7 @@ function Shop(){
                         <Carousel image={image}/>
                         <h4 className="babyName">{name}</h4>
                         <p className="par">{showMore ? description : description.substring(0, 15) + "..."}
-                        <button className="bta" onClick={() => showTextClick(element)}>{showMore ? "Show less" : "Show more"}</button></p>
+                        <button className="bta" onClick={() => showTextClick(element)}>{showMore ? "Read less" : "Read more"}</button></p>
                         <p className="babyPrice">$ {price}</p>
 
                      <div className="products">

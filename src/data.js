@@ -2,6 +2,7 @@ export const data = [
     {
         id: 1,
         name: "Newborn blanket head Set",
+        title: "newborn-blanket-head-set",
         searchTerm: "set",
         description: "There are no zippers, no velcro or snaps. Our baby girl blanket will be safe to your baby. Baby girl blanket are made of cloth,soft and stretchy knit fabric for extra stretch, they are soft and stretch. The pattern is on the one side of the fabric. Our girl blanket have rounded edges. Our blanket is made out of a lightweight fabric and is wonderful for warmer summer months. The design is exquisite and delicate, our receiving blankets is perfect for photo shoots or for any special occasions.",
         price: 12,
@@ -14,6 +15,7 @@ export const data = [
     {
         id: 2,
         name: "Paci Clip Soothe Holder 2 Pack",
+        title: "paci-clip-soothe-holder-2-pack",
         searchTerm: "accesories",
         description: "The paci clips with elegant and chic, vintage inspired colors. This pacifier clips was benefit for visual perception, motor, sensory development. It's useful for aged 3-36 months baby",
         price: 8,
@@ -25,7 +27,8 @@ export const data = [
 
     {
         id: 3,
-        name: "Baby Hair Bush and Comb Set ",
+        name: "Baby Hair Bush and Comb Set",
+        title: "baby-hair-bush-and-comb-set",
         searchTerm: "accesories",
         description: "NATURAL, SOFT & 100% SAFE- Our brushes are specifically made for delicate skin and help untangle baby hair. The comb in our baby grooming kit are made with the finest Pear Wood, while the brush bristles are made with prime, organic Goat Hair that is famous for its luxurious softness.",
         price: 7,
@@ -38,6 +41,7 @@ export const data = [
     {
         id: 4,
         name: "Baby Hand and Footprint Kit",
+        title: "baby-hand-and-footprint-kit",
         searchTerm: "wall-decor",
         description: "Personalized Photo Frame - Our baby footprint kit comes with bonus acrylic paint, paint brush and name/date printing kit. Customize it to your liking and present it as a thoughtful keepsake newborn baby gift for gender reveals and birth announcement.",
         price: 19,
@@ -50,6 +54,7 @@ export const data = [
     {
         id: 5,
         name: "Baby Diaper Caddy Organizer",
+        title: "baby-diaper-caddy-organizer",
         searchTerm: "accesories",
         description: "Stylish diaper change organizer: Our changing caddy is perfect to store small baby items. This baby tote designed with long handles and removable dividers. With multi compartment, you can organize baby essentials such as diapers, wipes, lotions, bibs, onesies, baby toys, cloth diapers, changing pads and more, large enough for baby necessities or baby nursery essentials.",
         price: 20,
@@ -62,6 +67,7 @@ export const data = [
     {
         id: 6,
         name: "Baby Wash & Shampoo set",
+        title: "baby-wash-&-shampoo-set",
         searchTerm: "set",
         description: "4-piece Aveeno Baby Daily Bathtime Solutions Baby & Me Gift Set is a collection of baby bath essentials in a convenient, reusable wicker basket that includes everything you need for bath time with your little one, plus a bonus for mom",
         price: 23,
@@ -74,6 +80,7 @@ export const data = [
     {
         id: 7,
         name: "Baby Nail Set",
+        title: "baby-nail-set",
         searchTerm: "set",
         description: "4 IN 1 CONVERTIBLE: This isn't just a nail clipper, but an entire grooming kit that includes a baby nail clipper, non-slip handled baby scissors, soft-tipped tweezers, and a gentle glass nail file that won't shred nails or hurt the skin around them. It comes with a protective and adorable case. This baby manicure set is one of the safest and easiest to use options available in the market right now.",
         price: 10,
@@ -86,6 +93,7 @@ export const data = [
     {
         id: 8,
         name: "Pearhead Baby Memory Book",
+        title: "pearhead-baby-memory-book",
         searchTerm: "accesories",
         description: "50 Guided Journal Pages: who this book belongs to, about mommy, about daddy, mommy and daddy’s story, family tree, mommy’s pregnancy journey, doctor visits, baby shower, gift and guest list, delivery/birthday!, special page to include prints from hospital, birth announcement, visitors/gifts, homecoming, and the world I came into",
         price: 16,
@@ -98,6 +106,7 @@ export const data = [
     {
         id: 9,
         name: "3-Pack Organic Baby Swaddle",
+        title: "3-pack-organic-baby-swaddle",
         searchTerm: "clothes",
         description: "100% Premium Quality Jersey Cotton, Imported Ergonomic for Newborn Growth - Certified as a hip-healthy product by the International Hip Dysplasia Institute (IHDI), the KeaBabies Soothe Baby Swaddle Sack provides ergonomic hip support for an infant's first 6 months of growth.",
         price: 26,
@@ -110,6 +119,7 @@ export const data = [
     {
         id: 10,
         name: "Portable Diaper Changing Pad",
+        title: "portable-diaper-changing-pad",
         searchTerm: "accesories",
         description: "CONVENIENT TO CARRY  Attach your changing table pad to strollers, bags, wrists or wherever you choose alike with its Velcro straps or buckle loop",
         price: 27,
@@ -122,6 +132,7 @@ export const data = [
     {
         id: 11,
         name: "Newborn Swaddle Set",
+        title: "newborn-swaddle-set",
         searchTerm: "clothes",
         description: "Soft & Comfort - Our baby swaddles 0-3 months are made from 70% viscose made from bamboo and 30% cotton muslin, which is lightweight and breathable; the hat and headband are modal material, which is super soft and stretchy-the best material for baby's head.",
         price: 25,
@@ -134,6 +145,7 @@ export const data = [
     {
         id: 12,
         name: "Outfit Knit Romper",
+        title: "outfit-knit-romper",
         searchTerm: "clothes",
         description: "❀MATERIAL: 100%COTTON: Knitted baby outfits for girls, we use only high quality and naturally grown organic cotton fibers, soft and comfortable newborn outfit, baby girl fall winter essentials, newborn fall outfits for girls",
         price: 11,
@@ -146,6 +158,7 @@ export const data = [
     {
         id: 13,
         name: "Baby Changing Basket",
+        title: "baby-changing-busket",
         searchTerm: "furniture",
         description: "100% Organic Woven Cotton 👶🏻UNIQUE DESIGN BABY CHANGING BASKET: Mutcretus changing basket is designed with pink color and cute unique shape. changing tray can be taken to both indoors and outdoors, or anywhere. Anytime to change your babies diaper on the go conveniently.",
         price: 50,
@@ -158,6 +171,7 @@ export const data = [
     {
         id: 14,
         name: "Baby Girls Nylon Headbands",
+        title: "baby-hair-nylon-headbands",
         searchTerm: "accesories",
         description: "Premium Material: These baby headbands are made of soft nylon and spandex. The lightweight nylon headbands won't leave any marks on your baby's head, perfect for newborns to toddlers and even kids.",
         price: 9,
@@ -170,6 +184,7 @@ export const data = [
     {
         id: 15,
         name: "Baby Girl Summer Clothes",
+        title: "baby-girl-summer-clothes",
         searchTerm: "clothes",
         description: "Orangic Cotton newborn girl clothes, soft and comfortable, friendly to baby's skin. summer outfit for baby girl, breathable,soft and skin-friendly baby clothes for girls,newborn girl outfits, convenient Snap closure for easy diaper changes for new mom",
         price: 14,
@@ -182,6 +197,7 @@ export const data = [
     {
         id: 16,
         name: "Hudson Baby Cotton Bibs",
+        title: "hudson-baby-cotton-bibs",
         searchTerm: "accesories",
         description: "Set includes coordinating drooler bibs, Made with 100% cotton, Multi-layered fabric absorbs drools and spills and gentle on baby's skin, Optimal for everyday use, Affordable, high quality value pack",
         price: 14,
@@ -194,6 +210,7 @@ export const data = [
     {
         id: 17,
         name: "2pcs Set Infant Bunny Matching Suit",
+        title: "2pcs-set-infant-bunny-matching-suit",
         searchTerm: "clothes",
         description: "Summer baby girl clothes top sweatshirt 2pcs set, daddy's girl embroidery letter print t shirt, baby girl short sleeve top, crewneck tee, fuzzy embroidered baby tops, pink tshirt, purple suit, green t piece set, matching with elastic waist shorts, bright colors make the baby look cute and lovely. This girls shorts clothing set tracksuit will make your kids more adorable and groovy. It’s great gifts for toddler girl summer clothes.",
         price: 10,
@@ -206,6 +223,7 @@ export const data = [
     {
         id: 18,
         name: "Newborn Infant Baby Girl Romper",
+        title: "newborn-infant-baby-girl-romper",
         searchTerm: "clothes",
         description: "Baby girl summer clothes,cute baby girl clothes,daddys girl mommys world letter ruffle short sleeve romper onesie top shirts and floral shorts with headband,baby girl newborn outfit,summer baby girl clothes,newborn romper,newborn outfit,newborn onesie,coming home outfit girl",
         price: 17,
@@ -218,6 +236,7 @@ export const data = [
     {
         id: 19,
         name: "Baby Swings",
+        title: "baby-swings",
         searchTerm: "furniture",
         description: "5 Swinging Speeds & 3 Grades of Height] KIDSVIEW baby swing for infants emulates parents’ natural side-to-side motion at 5 different speeds and 3 grades of height. You could adjust the settings to find the swing frequency and seat that your baby likes, which helps them peace and replax quickly. Ideal for toddlers 0-9 months and below 20 pounds.",
         price: 119,
@@ -230,6 +249,7 @@ export const data = [
     {
         id: 20,
         name: "Baby Feeding Set",
+        title: "baby-feeding-set",
         searchTerm: "accesories",
         description: "BOTTLE GROWS WITH BABY. Dr. Brown’s Natural Flow Anti-Colic Options+ baby bottle works best with the internal vent system in place but can be removed as baby’s feeding develops – no need to introduce a different bottle.",
         price: 22,
@@ -237,5 +257,5 @@ export const data = [
         image: ["https://m.media-amazon.com/images/I/71PqUpYpRuL._SX679_.jpg",
         "https://m.media-amazon.com/images/I/71Xnp+SxcKL._SX679_.jpg",
         "https://m.media-amazon.com/images/I/81ET1YZOUaL._SX679_.jpg"]
-    },
+    }
 ]

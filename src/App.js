@@ -1,5 +1,6 @@
 
 import About from './About';
+import AboutProduct from './AboutProduct';
 import './App.css';
 import Contact from './Contact';
 import Home from './Home';
@@ -28,6 +29,7 @@ function App() {
       <Route path="/shop" element={<Shop/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/about/:title" element={<AboutProduct/>}/>
     </Routes>
   </Router>
   
