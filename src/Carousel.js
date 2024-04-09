@@ -1,7 +1,7 @@
 import { useState } from "react";
 // import { Link } from "react-router-dom";
 
-function Carousel({image}) {
+function Carousel({image, width}) {
     const [index, setIndex] = useState(0)
 
     const prevBtn = () => {
@@ -26,14 +26,15 @@ function Carousel({image}) {
 
     return(
         <div className="product-card">
-            <img src={image[index]} width="150px" height="200" alt="baby items"/>
+            <img className="baby-items" src={image[index]} width={width} height="150px" alt="baby items"/>
         <div className="cta">
             <button className="previous" onClick={prevBtn}>Previous</button>
             <button className="previous" onClick={nextBtn}>Next</button>
           </div>
-        </div>
+        </div>  
       
     )
 
 }
 export default Carousel;
+

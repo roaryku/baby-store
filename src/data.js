@@ -40,15 +40,15 @@ export const data = [
 
     {
         id: 4,
-        name: "Baby Hand and Footprint Kit",
-        title: "baby-hand-and-footprint-kit",
-        searchTerm: "wall-decor",
-        description: "Personalized Photo Frame - Our baby footprint kit comes with bonus acrylic paint, paint brush and name/date printing kit. Customize it to your liking and present it as a thoughtful keepsake newborn baby gift for gender reveals and birth announcement.",
-        price: 19,
+        name: "Baby Feeding Set",
+        title: "baby-feeding-set",
+        searchTerm: "accesories",
+        description: "BOTTLE GROWS WITH BABY. Dr. Brown’s Natural Flow Anti-Colic Options+ baby bottle works best with the internal vent system in place but can be removed as baby’s feeding develops – no need to introduce a different bottle.",
+        price: 22,
         showMore: false,
-        image: ["https://m.media-amazon.com/images/I/61viZghNA3L._AC_SX679_.jpg",
-        "https://m.media-amazon.com/images/I/71EnuHCRv7L._AC_SX679_.jpg",
-        "https://m.media-amazon.com/images/I/61AWjbtIVIL._AC_SX679_.jpg"]
+        image: ["https://m.media-amazon.com/images/I/71PqUpYpRuL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71Xnp+SxcKL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/81ET1YZOUaL._SX679_.jpg"]
     },
 
     {
@@ -248,14 +248,14 @@ export const data = [
 
     {
         id: 20,
-        name: "Baby Feeding Set",
-        title: "baby-feeding-set",
-        searchTerm: "accesories",
-        description: "BOTTLE GROWS WITH BABY. Dr. Brown’s Natural Flow Anti-Colic Options+ baby bottle works best with the internal vent system in place but can be removed as baby’s feeding develops – no need to introduce a different bottle.",
-        price: 22,
+        name: "Baby Hand and Footprint Kit",
+        title: "baby-hand-and-footprint-kit",
+        searchTerm: "wall-decor",
+        description: "Personalized Photo Frame - Our baby footprint kit comes with bonus acrylic paint, paint brush and name/date printing kit. Customize it to your liking and present it as a thoughtful keepsake newborn baby gift for gender reveals and birth announcement.",
+        price: 19,
         showMore: false,
-        image: ["https://m.media-amazon.com/images/I/71PqUpYpRuL._SX679_.jpg",
-        "https://m.media-amazon.com/images/I/71Xnp+SxcKL._SX679_.jpg",
-        "https://m.media-amazon.com/images/I/81ET1YZOUaL._SX679_.jpg"]
-    }
+        image: ["https://m.media-amazon.com/images/I/61viZghNA3L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71EnuHCRv7L._AC_SX679_.jpg",
+        "https://m.media-amazon.com/images/I/61AWjbtIVIL._AC_SX679_.jpg"]
+    },
 ]

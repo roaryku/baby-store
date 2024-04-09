@@ -9,8 +9,7 @@ import { Link } from "react-router-dom";
 
 function Shop(){
     const [shop, setShop] = useState(data);
-    // const [showText, setShowText] = useState(false)
-    const [deleteButtonText, setDeleteButtonText] = useState("Delete All")
+     const [deleteButtonText, setDeleteButtonText] = useState("Delete All")
 
     const removeGift = (id) => {
         let newGifts = shop.filter(gift => gift.id !==id)
@@ -43,28 +42,19 @@ function Shop(){
         
        <div className="products shop">
             {shop.map((element => {
-                const {id, name, description, price, showMore, image} = element
+                const {id, name, description, price, image} = element
 
-
-        //    const showTextClick = (element) => {
-        //    element.showMore = !element.showMore
-        //    setShowText(!showText)
-        // }
-
-                return(
-                    <div>
-                        <div key={id} className="container">
-
-                        <Link className="link" to ={`/about/${element.title}`}>
+                  return(
+                    <div key={id} >
+                      <div className="container">
                         <Carousel image={image}/>
-                      
                         <h4 className="babyName">{name}</h4>
-                        <p className="par">{showMore ? description : description.substring(0, 15) + "..."}
+                        <p className="babyPrice">$ {price}</p>
+                        <Link className="link" to ={`/about/${element.title}`}>
+                        <p className="par">{description.substring(0, 5) + "..."}
                         <button className="bta">Read more</button></p>
                         </Link>
-                        <p className="babyPrice">$ {price}</p>
-
-                     <div className="products">
+                      <div className="products">
                         <button className="buyNow" onClick={() => removeGift(id)}>Buy Now</button>
                     </div>
                    </div>
