@@ -13,4 +13,4 @@ This project was build in react with functional components & react hooks and pro
 
 The desktop version of the website was designed in figma with animation in the home page and filter buttons in shop page.
 Below you can see the figma designed.
-Open [[http://localhost:3000](https://www.figma.com/design/z1PU7tEPILqDR4sTnQl7Zs/Organic-beauty-store---Rodika?node-id=0-1&t=igFbgdqai7Q5IxOY-1)]
+Open [[Online store - Figma](https://www.figma.com/design/z1PU7tEPILqDR4sTnQl7Zs/Organic-beauty-store---Rodika?node-id=0-1&t=igFbgdqai7Q5IxOY-1)]
