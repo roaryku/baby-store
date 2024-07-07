@@ -1,0 +1,77 @@
+/* .containerAboutAcc{
+    background-color: #f5ede8;
+}
+
+.accordion .item {
+    border: 0;
+    border-radius: 0;
+    padding: 45px 25px;
+}
+.accordion:last-child .item {
+    border-bottom: 2px solid black;
+}
+
+.accordion .item .accordion-header button {
+    background-color: #baab8c ;
+    box-shadow: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-weight: 700;
+    vertical-align: middle;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    color: #fcfbfa;
+    
+
+}
+.accordion .item button{
+    color: #fcfbfa;
+}
+.accordion .item .accordion-header button::after{
+    transition: all .6 ease;
+}
+.accordion .item .accordion-collapse{
+    transition: all .4s ease;
+}
+.accordionImageOne{
+    margin-bottom: 25px;
+}
+.name{
+    border-radius: 30%;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    color: #2E2836;
+}
+.accordionName{
+    font-size: 25px;
+    margin-top: 15px;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    color: #2E2836;
+}
+.ourTeam{
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    color: #2E2836;
+}
+.cardBody{
+    margin: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #2E2836;
+}
+.accordionTeam{
+    margin-top: 90px;
+    font-family: "Poppins", sans-serif;
+    color: #2E2836;
+}
+.cardInfo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    color: #2E2836;
+}
+.card{
+    margin: 20px;
+} */

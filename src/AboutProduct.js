@@ -18,8 +18,8 @@ function AboutProduct(){
                 return(
                     <div key={index}>
                     <div className="carCont">
-                        <h2 className="babyName two">{item.name}</h2>
-                        <p className="babyPrice three">$ {item.price}</p>
+                        <h2 className="careName two">{item.name}</h2>
+                        <p className="carePrice three">$ {item.price}</p>
                     </div>
 
                         <div className="carCont">

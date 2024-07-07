@@ -1,11 +1,12 @@
 body{
-  background-color: #f8fdff;
-}
+  background-color: rgba(245, 237, 233, 1);
+  }
+
 nav{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #ccbd89;
+  background-color: #fce4de;
 }
 .link{
   margin: 25px;
@@ -29,15 +30,16 @@ nav{
   margin: 50px;
 }
 .shop{
-  background-color: #f8fdff;
+  background-color: rgba(245, 237, 233, 1);
 }
 .cta{
   display: flex;
   justify-content: space-around;
+  /* margin: 5px; */
 }
 .previous{
   padding: 10px;
-  margin-top: 10px;
+  margin: 10px;
   border: none;
   background-color: #c272ed;
   color: #f8fdff;
@@ -47,7 +49,7 @@ nav{
   background-color: #f8fdff;
   color: #c272ed;
 }
-.babyName{
+.careName{
   text-align: center;
   color: #2E2836;
   font-family: "Poppins", sans-serif;
@@ -69,7 +71,7 @@ nav{
   font-weight: bold;
   margin-top: 30px;
 }
-.babyPrice{
+.carePrice{
   text-align: center;
   color: #2E2836;
   font-family: "Poppins", sans-serif;
@@ -78,16 +80,12 @@ nav{
 .shipping{
   background-color: #c6564e;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   color: #f8fdff;
-  margin:0;
+  margin: 0px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-}
-hr{
-  margin: 0;
-  color: #f8fdff;
-  width: 3px;
+  border-bottom: 3px solid #f8fdff;
 }
 .par{
   font-family: "Poppins", sans-serif;
@@ -105,7 +103,7 @@ hr{
 }
 .buyNow{
   color: #f8fdff;
-  background-color: #c2004a9b;
+  background-color: #e4907b;
   padding: 10px;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
@@ -118,9 +116,9 @@ hr{
   flex-basis: 16%;
 }
 .buyNow:hover{
-  border: 1px solid #c2004a9b;
+  border: 1px solid #e4907b;
   background-color: #f8fdff;
-  color: #c2004a9b;
+  color: #e4907b;
 }
 .delete{
   display: flex;
@@ -152,10 +150,10 @@ hr{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #f8fdff;
+  background-color: rgba(245, 237, 233, 1);
 }
 .change {
-  background-color: #2E2836;
+  background-color: #620a5b;
   color: #f8fdff;
   padding: 15px;
   margin: 10px;
@@ -165,8 +163,8 @@ hr{
 }
 .change:hover{
   background-color: #f8fdff;
-  border: 1px solid #2E2836;
-  color: #2E2836;
+  border: 1px solid #620a5b;
+  color: #620a5b;
 }
 .carCont{
   display: flex;
@@ -175,12 +173,506 @@ hr{
   align-items: center;
   
 }
-.baby-image{
-  width: 400px;
-}
-.baby-items{
+.care-items{
   width:"150px"; 
   height:"200px";
 }
+h3{
+  margin-left: 90px;
+  padding-top: 160px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #f8fdff;
+  font-family: "Open Sans", sans-serif;
+}
+.shopPar{
+  color: #d13a3b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-left: 90px;
+}
+.shopContainerHeader{
+  margin: 0px;
+  padding: 0px;
+}
+.shopContainer{
+  background-image: url("shop.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh;
+}
+* {
+   margin: 0; 
+   padding: 0;
+  }
+.logo{
+  padding: 10px;
+  margin-top: 13px;
+}
+.header-signUp{
+  margin: 20px;
+  padding: 5px;
+}
+.signUp{
+  padding: 10px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #A39657;
+  font-size: 15px;
+  color: #A39657;
+  background-color: #ffff;;
+}
+.signUp:hover{
+  color: #ffff;
+  background-color: #A39657;
+  border: none;
+}
+
+
+
+/* Modal Button */
+.modalButton {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  padding: 12px 24px;
+}
+
+
+/* Modal */
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.modalContainer {
+  max-width: 500px;
+  width: 100%;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  border: 15px solid #e2c4a6;
+  border-radius: 5px;
+}
+.modalRight {
+  width: 20%;
+}
+.closeBtn {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  padding: 5px;
+  background-color: #e9e6ec;
+  border: none;
+}
+.closeBtn:hover {
+   background-color: #47b81d;
+   color: #e9e6ec;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+}
+.btnContainer {
+  display: flex;
+  padding: 1rem 1rem;
+}
+.btnContainer button {
+  width: 100%;
+  margin: .5rem;
+  padding: 16px 0;
+  border: 1px solid #411b57;
+}.btnPrimary {
+  background-color: #411b57;
+  color: white;
+}
+.btnOutline {
+  background-color: white;
+  color: #411b57;
+}
+.bold {
+  font-weight: 600;
+}
+.inputModal{
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.btnLog{
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  background-color: #d13a3b;
+  color: #f8fdff;
+}
+.btnLog:hover{
+  background-color: #f8fdff;
+  color: #d13a3b;
+  border: 1px solid #d13a3b;
+}
+.btnSignUp{
+  background-color: #37cbf5;
+}
+.btnSignUp:hover{
+  background-color: #f8fdff;
+  color: #37cbf5;
+  border: 1px solid #37cbf5;
+}
+.body-home{
+  background-image: url("home.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+.homeHeader{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+.welcomeHome{
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  color: #2E2836;
+  margin: 15px;
+}
+.homePar{
+  margin: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  color: #411b57;
+}
+.headerHomeChabge{
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: #b01b48;
+  margin: 15px;
+}
+.homeButtonContainer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.image-card{
+  width: 350px;
+}
+.shopButton{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #b01b48;
+  color: #f3f4f6;
+  border: none;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.shopButton:hover{
+  background-color: #f3f4f6;
+  color: #b01b48;
+  border: 1px solid #b01b48;
+}
+.learnButton{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f3f4f6;
+  color: #b01b48;
+  border: 1px solid #b01b48;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.learnButton:hover, .about-btn:hover{
+  background-color: #b01b48;
+  color: #f3f4f6;
+  border: none;
+}
+.card-button{
+  position: relative;
+}
+.bestSaleShop{
+  position: absolute;
+  right: 15px; bottom: 15px;
+  background-color: #b01b48;
+  color: #f3f4f6;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+.separator{
+  margin: 30px;
+  height: 3px;
+  background-color: #baab8c;
+  border: none;
+  width: 86%;
+}
+.galleryBody{
+  background-color: #c0b5b3;
+  min-height: 90vh;
+}
+.photo-galery{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.galery-par{
+  padding: 60px;
+  font-size: 30px;
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+  color: #2E2836;
+}
+.imageGallery{
+  border: 15px solid #baab8c;
+  width: 200px;
+  margin: 10px;
+}
+.imageGallery:hover{
+  width: 250px;
+  border: none;
+  text-align: center;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  position: relative;
+}
+.about-face{
+  width: 900px;
+}
+.about-btn{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f3f4f6;
+  color: #b01b48;
+  border: 1px solid #b01b48;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.aboutButtonLink{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 350px;
+}
+.reviewContainer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 100px;
+ }
+.reviewHeader img, .reviewHeader p{
+  flex-grow: 0;
+  flex-wrap: wrap;
+}
+.photo-review{
+  width: 500px;
+}
+.reviewHeader img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.reviewHeader p {
+  margin-left: 5%;
+  margin-top: -17%;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+  color: #f3f4f6;
+}
+.aboutUsHeader, .ContactUsHeader{
+  text-align: center;
+  padding: 40px;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  color: #2E2836;
+}
+.bodyAccordion{
+  text-align: center;
+}
+
+
+.containerAboutAcc, .contactContainer{
+  background-color: #f5ede8;
+}
+
+.accordion .item {
+  border: 0;
+  border-radius: 0;
+  padding: 45px 25px;
+}
+.accordion:last-child .item {
+  border-bottom: 2px solid black;
+}
+
+.accordion .item .accordion-header button {
+  background-color: #baab8c ;
+  box-shadow: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-weight: 700;
+  vertical-align: middle;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: #fcfbfa;
+}
+.accordion .item button{
+  color: #fcfbfa;
+}
+.accordion .item .accordion-header button::after{
+  transition: all .6 ease;
+}
+.accordion .item .accordion-collapse{
+  transition: all .4s ease;
+}
+.accordionImageOne{
+  margin-bottom: 25px;
+}
+.name{
+  border-radius: 30%;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  color: #2E2836;
+}
+.accordionName{
+  font-size: 25px;
+  margin-top: 15px;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  color: #2E2836;
+}
+.ourTeam{
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  color: #2E2836;
+}
+.cardBody{
+  margin: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #2E2836;
+}
+.accordionTeam{
+  margin-top: 90px;
+  font-family: "Poppins", sans-serif;
+  color: #2E2836;
+}
+.cardInfo{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  color: #2E2836;
+}
+.ContactusInfo{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.inputinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px;
+  
+}
+.inputContact, .textContactMessage{
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  border-bottom: 2px solid #baab8c;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.parContact{
+  color: #9c8351;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.par-contact{
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #2E2836;
+}
+
+
+
+@media all and ( max-width: 800px) {
+  .imageGallery:hover{
+    width: 200px;
+  }
+  .about-face{
+    width: 450px;
+  }
+  .aboutButtonLink{
+    margin-top: 150px;
+    margin-left: 200px;
+  }
+  .about-btn{
+    margin: 5px;
+    font-size: 13px;
+  }
+  .about{
+    margin-bottom: 0;
+  }
+  .reviewHeader img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 30px;
+  }
+  .reviewHeader p {
+    font-weight: lighter;
+    line-height: normal;
+    font-size: 10px;
+  }
+  .photo-review{
+    padding: 5px;
+  }
+  .buyNow{
+    margin: 10px;
+  }
+  .modalContainer {
+    max-width: 350px;
+  }
+  .about-face{
+    width: 350px;
+  }
+  .reviewHeader p {
+    margin-left: 5%;
+    margin-top: -27%;
+    font-weight: lighter;
+    line-height: 1.3;
+    color: #f3f4f6;
+  }
+
+  
+}
+
+
+
 
 

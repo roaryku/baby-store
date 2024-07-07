@@ -26,9 +26,9 @@ function Carousel({image, width}) {
 
     return(
         <div className="product-card">
-            <img className="baby-items" src={image[index]} width={width} height="150px" alt="baby items"/>
+            <img className="care-items" src={image[index]} width={width} height="150px" alt="care items"/>
         <div className="cta">
-            <button className="previous" onClick={prevBtn}>Previous</button>
+            <button className="previous" onClick={prevBtn}>Back</button>
             <button className="previous" onClick={nextBtn}>Next</button>
           </div>
         </div>  
